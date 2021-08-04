@@ -1,7 +1,7 @@
 int	ft_iterative_factorial(int nb)
 {
-	int						i;
-	unsigned int long long	fact;
+	int	i;
+	int	fact;
 
 	if (nb < 0)
 		return (0);
@@ -14,7 +14,6 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (fact);
 }
-
 /*
 #include <stdio.h>
 #include <stdlib.h>
